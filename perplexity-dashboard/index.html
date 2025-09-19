@@ -1,1 +1,221 @@
-Hello Perplexity Dashboard
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📊 AI & FinTech Intelligence Dashboard | DeliaTech | September 19, 2025</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Clean Intelligence Header -->
+    <header class="intelligence-header">
+        <div class="container">
+            <div class="header-content">
+                <h1>📊 AI & FINTECH INTELLIGENCE DASHBOARD</h1>
+                <div class="live-status">
+                    <div class="pulse-indicator"></div>
+                    <span class="live-time" id="live-time">September 19, 2025, 2:39 PM EDT - Live Intelligence</span>
+                </div>
+                <div class="status-indicator">
+                    <span class="status-dot"></span>
+                    <span class="status-text">Live Updates Active</span>
+                </div>
+                <div class="curator-info">
+                    <span>Professional Intelligence by <strong>DeliaTech</strong></span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Regional Intelligence Hub -->
+    <nav class="regional-hub">
+        <div class="container">
+            <div class="region-selector">
+                <button class="region-btn active" data-region="all">
+                    <div class="region-flag">🔗</div>
+                    <div class="region-content">
+                        <h3>ALL REGIONS</h3>
+                        <div class="region-stats">9 trends • Cross-regional analysis</div>
+                    </div>
+                </button>
+                
+                <button class="region-btn" data-region="peru">
+                    <div class="region-flag">🇵🇪</div>
+                    <div class="region-content">
+                        <h3>PERU</h3>
+                        <div class="region-stats">3 trends • 2 Very High impact</div>
+                    </div>
+                </button>
+                
+                <button class="region-btn" data-region="latam">
+                    <div class="region-flag">🌎</div>
+                    <div class="region-content">
+                        <h3>LATAM</h3>
+                        <div class="region-stats">3 trends • 1 Very High impact</div>
+                    </div>
+                </button>
+                
+                <button class="region-btn" data-region="usa">
+                    <div class="region-flag">🇺🇸</div>
+                    <div class="region-content">
+                        <h3>USA</h3>
+                        <div class="region-stats">3 trends • 1 Very High impact</div>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Intelligence Content -->
+    <main class="main-content">
+        <div class="container">
+            <div class="content-grid">
+                
+                <!-- Intelligence Trends -->
+                <section class="trends-section">
+                    <div class="section-header">
+                        <h2>🎯 Intelligence Trends</h2>
+                        <div class="content-controls">
+                            <div class="search-container">
+                                <input type="text" placeholder="Search trends..." class="search-input" id="search-input">
+                            </div>
+                            <button class="btn btn--outline" id="export-btn">📊 Export Report</button>
+                        </div>
+                    </div>
+                    
+                    <div class="trends-container" id="trends-container">
+                        <!-- Dynamic content will be loaded here -->
+                    </div>
+                </section>
+
+                <!-- Intelligence Sidebar -->
+                <aside class="intelligence-sidebar">
+                    
+                    <!-- Intelligence Analytics -->
+                    <div class="sidebar-panel">
+                        <h3>📊 Intelligence Analytics</h3>
+                        <div class="analytics-summary">
+                            <div class="metric-card">
+                                <div class="metric-label">Total Trends</div>
+                                <div class="metric-value">9</div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-label">Very High Impact</div>
+                                <div class="metric-value">5</div>
+                            </div>
+                            <div class="metric-card">
+                                <div class="metric-label">Active Implementations</div>
+                                <div class="metric-value">8</div>
+                            </div>
+                        </div>
+                        
+                        <div class="chart-container" style="position: relative; height: 200px;">
+                            <canvas id="impactChart"></canvas>
+                        </div>
+                        
+                        <div class="regional-breakdown">
+                            <h4>Regional Distribution</h4>
+                            <div class="region-metric">
+                                <span>🇵🇪 Peru</span>
+                                <span>3 trends</span>
+                            </div>
+                            <div class="region-metric">
+                                <span>🌎 LATAM</span>
+                                <span>3 trends</span>
+                            </div>
+                            <div class="region-metric">
+                                <span>🇺🇸 USA</span>
+                                <span>3 trends</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- AI-Powered Insights -->
+                    <div class="sidebar-panel ai-insights-panel">
+                        <h3>🧠 AI-Powered Insights</h3>
+                        <div class="insights-list">
+                            <div class="insight-item">
+                                <div class="insight-title">Peru AI Governance Leadership</div>
+                                <div class="insight-text">Peru establishes comprehensive regulatory framework positioning itself as LATAM AI governance leader</div>
+                                <div class="insight-impact">Regional Impact: LATAM-wide</div>
+                            </div>
+                            <div class="insight-item">
+                                <div class="insight-title">AI-Native Finance Transformation</div>
+                                <div class="insight-text">Financial industry undergoes fundamental shift from AI-assisted to AI-native operations</div>
+                                <div class="insight-impact">Regional Impact: Global</div>
+                            </div>
+                            <div class="insight-item">
+                                <div class="insight-title">B2B SaaS Profitability Surge</div>
+                                <div class="insight-text">B2B SaaS fintech sector achieves profitability through AI-driven cost reductions of 50%</div>
+                                <div class="insight-impact">Regional Impact: Global</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- DeliaTech Intelligence -->
+                    <div class="sidebar-panel deliatech-panel">
+                        <h3>📧 Subscribe to DeliaTech Intelligence</h3>
+                        <div class="premium-content">
+                            <h4>Weekly AI & FinTech Intelligence with Professional Analysis</h4>
+                            <div class="premium-benefits">
+                                <div class="benefit">✓ Comprehensive regional trend analysis</div>
+                                <div class="benefit">✓ AI-powered market insights</div>
+                                <div class="benefit">✓ Professional source citations</div>
+                                <div class="benefit">✓ Export-ready intelligence reports</div>
+                                <div class="benefit">✓ Early access to breaking developments</div>
+                            </div>
+                            <a href="https://substack.com/@deliagreen?utm_source=user-menu" 
+                               target="_blank" 
+                               class="btn btn--primary premium-subscribe">
+                                📧 Subscribe for Weekly Intelligence Updates
+                            </a>
+                            <div class="premium-description">
+                                <div class="description-text">Never miss critical industry developments</div>
+                                <div class="description-text">Professional intelligence briefings</div>
+                                <div class="description-text">Strategic analysis and insights</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </aside>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="intelligence-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-summary">
+                    <div class="summary-item">
+                        <h4>🌍 Global Intelligence Coverage</h4>
+                        <div class="summary-stats">
+                            <div class="stat">9 total trends tracked</div>
+                            <div class="stat">5 Very High impact developments</div>
+                            <div class="stat">8 Active implementations</div>
+                            <div class="stat">3 regions monitored</div>
+                        </div>
+                    </div>
+                    <div class="summary-item">
+                        <h4>📈 Latest Updates</h4>
+                        <div class="summary-stats">
+                            <div class="stat">Last 24 hours: 3 new trends</div>
+                            <div class="stat">Impact distribution: 56% Very High</div>
+                            <div class="stat">Regional velocity: Active</div>
+                            <div class="stat">Cross-regional analysis: Live</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 DeliaTech Intelligence - Premium Intelligence Platform</p>
+                <p>Curated intelligence • Professional analysis • Strategic insights</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
